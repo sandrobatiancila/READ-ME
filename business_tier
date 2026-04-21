@@ -129,3 +129,7 @@ INSERT INTO mlckyc_[ENV].kycTierLimit (kyc_tier_id, maximum_amount, service_name
 (339, 2000, 'ML MONEY', 'PER_TRANSACTION', 'Ml Beetzee', NULL, NULL, NULL, NOW()),
 (339, 5000, 'ML MONEY', 'DAILY', 'Ml Beetzee', NULL, NULL, NULL, NOW()),
 (339, 10000, 'ML MONEY', 'MONTHLY', 'Ml Beetzee', NULL, NULL, NULL, NOW());
+
+#
+SELECT * FROM mlckyc_[ENV].customer WHERE cellphone_number='09393344085';
+#Change tier_id column into newly added kycTier
