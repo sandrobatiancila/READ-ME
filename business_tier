@@ -1,3 +1,5 @@
+QA -> PREPROD -> PROD setup
+
 #Insert First in kycTier
 1) Check first the max level
 2) 
